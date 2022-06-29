@@ -1,0 +1,31 @@
+{
+  "name": "template-cli",
+  "version": "1.0.0",
+  "description": "快速搭建后台管理系统脚手架工具",
+  "main": "index.js",
+  "bin": {
+    "template-cli": "./bin/index"
+  },
+  "scripts": {
+    "start": "node ./bin/index"
+  },
+  "keywords": [
+    "脚手架",
+    "cli工具",
+    "后台管理系统",
+    "模板"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinners": "^2.6.1",
+    "download": "^8.0.0",
+    "esm": "^3.2.25",
+    "extract-zip": "^2.0.1",
+    "fs-extra": "^10.1.0",
+    "handlebar": "^1.0.0",
+    "inquirer": "^7.3.3",
+    "update-notifier": "^5.1.0",
+    "write": "^2.0.0"
+  }
+}
